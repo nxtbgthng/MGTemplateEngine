@@ -27,6 +27,7 @@
 #define STACK_START_REMAINING_RANGE		@"remainingRange"
 #define FOR_STACK_ENUMERATOR			@"enumerator"
 #define FOR_STACK_ENUM_VAR				@"enumeratorVariable"
+#define FOR_STACK_DISABLED_OUTPUT		@"disabledOutput"
 
 //==============================================================================
 
@@ -227,14 +228,33 @@
 				}
 				
 				*newVariables = blockVars;
+			} else {
+				// Disable output for this block.
+				*blockStarted = YES;
+				NSMutableDictionary *stackFrame = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+												   [NSNumber numberWithBool:YES], FOR_STACK_DISABLED_OUTPUT, 
+												   [NSValue valueWithRange:markerRange], STACK_START_MARKER_RANGE, 
+												   [NSValue valueWithRange:*nextRange], STACK_START_REMAINING_RANGE, 
+												   nil];
+				[forStack addObject:stackFrame];
+				*outputEnabled = NO;
 			}
 		}
 		
 	} else if ([marker isEqualToString:FOR_END]) {
 		// Decide whether to loop back or terminate.
 		if ([self currentBlock:blockInfo matchesTopOfStack:forStack]) {
-			// This is the same loop that's on top of our stack. Check to see if we need to loop back.
 			NSMutableDictionary *frame = [forStack lastObject];
+			
+			// Check to see if this was a block with an invalid looping condition.
+			NSNumber *disabledOutput = (NSNumber *)[frame objectForKey:FOR_STACK_DISABLED_OUTPUT];
+			if (disabledOutput && [disabledOutput boolValue]) {
+				*outputEnabled = YES;
+				*blockEnded = YES;
+				[forStack removeLastObject];
+			}
+			
+			// This is the same loop that's on top of our stack. Check to see if we need to loop back.
 			BOOL loop = NO;
 			NSDictionary *blockVars = [blockInfo objectForKey:BLOCK_VARIABLES_KEY];
 			if ([blockVars count] == 0) {
