@@ -6,7 +6,6 @@
 //  Copyright 2008 Instinctive Code. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
 #import "MGTemplateEngine.h"
 
 @interface AppController : NSObject <MGTemplateEngineDelegate> {

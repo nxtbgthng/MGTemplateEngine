@@ -5,9 +5,6 @@
 //  Copyright 2008 Instinctive Code. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
-
 @interface NSArray (DeepMutableCopy)
 
 - (NSMutableArray *)deepMutableCopy;

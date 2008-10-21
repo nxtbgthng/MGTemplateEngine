@@ -5,7 +5,6 @@
 //  Copyright 2008 Instinctive Code. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
 #import "MGTemplateEngine.h"
 #import <RegexKit/RegexKit.h>
 

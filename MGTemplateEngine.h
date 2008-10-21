@@ -5,8 +5,6 @@
 //  Copyright 2008 Instinctive Code. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 // Keys in blockInfo dictionaries passed to delegate methods.
 #define	BLOCK_NAME_KEY					@"name"				// NSString containing block name (first word of marker)
 #define BLOCK_END_NAMES_KEY				@"endNames"			// NSArray containing names of possible ending-markers for block
