@@ -389,6 +389,19 @@
 					argTrue = (num1 <= num2);
 				} else if ([op isEqualToString:@"\%"]) {
 					argTrue = ((num1 % num2) > 0);
+				} else if ([op isEqualToString:@"equalsstring"]) {
+					NSObject *firstVal = [engine resolveVariable:firstArg];
+					NSObject *secondVal = [engine resolveVariable:secondArg];
+					if (!firstVal) {
+						firstVal = firstArg;
+					}
+					if (!secondVal) {
+						secondVal = secondArg;
+					}
+					if (firstVal && secondVal) {
+						//NSLog(@"%@ %@", [NSString stringWithFormat:@"%@", firstVal], [NSString stringWithFormat:@"%@", secondVal]);
+						argTrue = [[NSString stringWithFormat:@"%@", firstVal] isEqualToString:[NSString stringWithFormat:@"%@", secondVal]];
+					}
 				}
 			}
 			

@@ -5,7 +5,7 @@ It's currently {% now | date_format: "dd MMM yyyy 'at' HH:mm:ss" %}
 Nested variable: {{ foo.bar }}
 
 {% for dude in guys %}
-	Current dude is {{ dude | uppercase }}...
+	Current dude is {{ dude | uppercase }}...{% if dude equalsString "matt" %} AWESOME!{% /if %}
 	{% if currentLoop.currentIndex == 0 %}
 		(the best!) {% comment %} Should only happen for Matt {% /comment %}
 		{% for 1 to 5 %}*{% /for %}
