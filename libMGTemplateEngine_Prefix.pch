@@ -1,0 +1,17 @@
+//
+//  libMGTemplateEngine_Prefix.pch
+//  MGTemplateEngine
+//
+//  Created by Ullrich Schäfer on 11.10.10.
+//  Copyright 2010 nxtbgthng. All rights reserved.
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
+
+#if TARGET_OS_IPHONE
+	#import <UIKit/UIKit.h>
+#else
+	#import <AppKit/AppKit.h>
+#endif

@@ -15,7 +15,7 @@
 #define TEMPLATE_ENGINE_ERROR_DOMAIN	@"MGTemplateEngineErrorDomain"
 
 @class MGTemplateEngine;
-@protocol MGTemplateEngineDelegate
+@protocol MGTemplateEngineDelegate <NSObject>
 @optional
 - (void)templateEngine:(MGTemplateEngine *)engine blockStarted:(NSDictionary *)blockInfo;
 - (void)templateEngine:(MGTemplateEngine *)engine blockEnded:(NSDictionary *)blockInfo;

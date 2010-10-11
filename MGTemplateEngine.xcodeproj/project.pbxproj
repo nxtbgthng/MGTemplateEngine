@@ -11,6 +11,25 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		945489331263538000D24C8F /* DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D9142F0DE36747005CC08F /* DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489341263538000D24C8F /* ICUTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701D0DE1FD5C00F0B62A /* ICUTemplateMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489351263538100D24C8F /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8701E0DE1FD5C00F0B62A /* ICUTemplateMatcher.m */; };
+		945489361263538100D24C8F /* MGTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8700F0DE1FD2700F0B62A /* MGTemplateEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489371263538100D24C8F /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870100DE1FD2700F0B62A /* MGTemplateEngine.m */; };
+		945489381263538100D24C8F /* MGTemplateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870110DE1FD2700F0B62A /* MGTemplateFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489391263538100D24C8F /* MGTemplateMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870120DE1FD2700F0B62A /* MGTemplateMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454893A1263538200D24C8F /* MGTemplateStandardFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870130DE1FD2700F0B62A /* MGTemplateStandardFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454893B1263538200D24C8F /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870140DE1FD2700F0B62A /* MGTemplateStandardFilters.m */; };
+		9454893C1263538200D24C8F /* MGTemplateStandardMarkers.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870150DE1FD2700F0B62A /* MGTemplateStandardMarkers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454893E1263538200D24C8F /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8705E0DE2094000F0B62A /* NSArray_DeepMutableCopy.m */; };
+		9454893F1263538300D24C8F /* NSDictionary_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705F0DE2094000F0B62A /* NSDictionary_DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489401263538300D24C8F /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870270DE1FF9800F0B62A /* RegexKitLite.h */; settings = {ATTRIBUTES = (); }; };
+		945489441263538400D24C8F /* RegexKitTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701A0DE1FD4000F0B62A /* RegexKitTemplateMatcher.h */; settings = {ATTRIBUTES = (); }; };
+		945489451263538500D24C8F /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870600DE2094000F0B62A /* NSDictionary_DeepMutableCopy.m */; };
+		945489461263538500D24C8F /* NSArray_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705D0DE2094000F0B62A /* NSArray_DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489471263538600D24C8F /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870160DE1FD2700F0B62A /* MGTemplateStandardMarkers.m */; };
+		9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */; };
+		945489FD12644C5D00D24C8F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870280DE1FF9800F0B62A /* RegexKitLite.m */; };
 		C9ABE0C40DE2EBF8009E7BC8 /* Writing Filters.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.txt */; };
 		C9ABE0C50DE2EBF8009E7BC8 /* Writing Markers.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.txt */; };
 		C9ABE0C60DE2EBF8009E7BC8 /* Writing Matchers.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.txt */; };
@@ -38,6 +57,8 @@
 		32CA4F630368D1EE00C91783 /* MGTemplateEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngine_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MGTemplateEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTemplateEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945489211263531D00D24C8F /* libMGTemplateEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGTemplateEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libMGTemplateEngine_Prefix.pch; sourceTree = "<group>"; };
 		C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Filters.txt"; sourceTree = "<group>"; };
 		C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Markers.txt"; sourceTree = "<group>"; };
 		C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Matchers.txt"; sourceTree = "<group>"; };
@@ -78,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9454891F1263531D00D24C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* MGTemplateEngine.app */,
+				945489211263531D00D24C8F /* libMGTemplateEngine.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +168,7 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* MGTemplateEngine_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -232,6 +262,28 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9454891D1263531D00D24C8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945489401263538300D24C8F /* RegexKitLite.h in Headers */,
+				945489331263538000D24C8F /* DeepMutableCopy.h in Headers */,
+				945489341263538000D24C8F /* ICUTemplateMatcher.h in Headers */,
+				945489361263538100D24C8F /* MGTemplateEngine.h in Headers */,
+				945489381263538100D24C8F /* MGTemplateFilter.h in Headers */,
+				945489391263538100D24C8F /* MGTemplateMarker.h in Headers */,
+				9454893A1263538200D24C8F /* MGTemplateStandardFilters.h in Headers */,
+				9454893C1263538200D24C8F /* MGTemplateStandardMarkers.h in Headers */,
+				9454893F1263538300D24C8F /* NSDictionary_DeepMutableCopy.h in Headers */,
+				945489441263538400D24C8F /* RegexKitTemplateMatcher.h in Headers */,
+				945489461263538500D24C8F /* NSArray_DeepMutableCopy.h in Headers */,
+				9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		8D1107260486CEB800E47090 /* MGTemplateEngine */ = {
 			isa = PBXNativeTarget;
@@ -251,6 +303,23 @@
 			productReference = 8D1107320486CEB800E47090 /* MGTemplateEngine.app */;
 			productType = "com.apple.product-type.application";
 		};
+		945489201263531D00D24C8F /* libMGTemplateEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945489241263533C00D24C8F /* Build configuration list for PBXNativeTarget "libMGTemplateEngine" */;
+			buildPhases = (
+				9454891D1263531D00D24C8F /* Headers */,
+				9454891E1263531D00D24C8F /* Sources */,
+				9454891F1263531D00D24C8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libMGTemplateEngine;
+			productName = libMGTemplateEngine;
+			productReference = 945489211263531D00D24C8F /* libMGTemplateEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -258,12 +327,20 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MGTemplateEngine" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MGTemplateEngine */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* MGTemplateEngine */,
+				945489201263531D00D24C8F /* libMGTemplateEngine */,
 			);
 		};
 /* End PBXProject section */
@@ -302,6 +379,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9454891E1263531D00D24C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945489351263538100D24C8F /* ICUTemplateMatcher.m in Sources */,
+				945489371263538100D24C8F /* MGTemplateEngine.m in Sources */,
+				9454893B1263538200D24C8F /* MGTemplateStandardFilters.m in Sources */,
+				9454893E1263538200D24C8F /* NSArray_DeepMutableCopy.m in Sources */,
+				945489451263538500D24C8F /* NSDictionary_DeepMutableCopy.m in Sources */,
+				945489471263538600D24C8F /* MGTemplateStandardMarkers.m in Sources */,
+				945489FD12644C5D00D24C8F /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -324,6 +415,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		945489221263531E00D24C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = MGTemplateEngine;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		945489231263531E00D24C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = MGTemplateEngine;
+				SDKROOT = iphoneos4.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -384,6 +508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		945489241263533C00D24C8F /* Build configuration list for PBXNativeTarget "libMGTemplateEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945489221263531E00D24C8F /* Debug */,
+				945489231263531E00D24C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MGTemplateEngine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
