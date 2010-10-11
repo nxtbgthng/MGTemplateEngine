@@ -33,7 +33,7 @@
 #define MARKER_FILTER_ARGUMENTS_KEY		@"filterArgs"		// NSArray of filter arguments, if any
 #define MARKER_RANGE_KEY				@"range"			// NSRange (as NSValue) of marker's range
 
-@protocol MGTemplateEngineMatcher
+@protocol MGTemplateEngineMatcher <NSObject>
 @required
 - (id)initWithTemplateEngine:(MGTemplateEngine *)engine;
 - (void)engineSettingsChanged; // always called at least once before beginning to process a template.

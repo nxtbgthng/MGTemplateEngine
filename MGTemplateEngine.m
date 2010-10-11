@@ -95,6 +95,8 @@
 	[_markers release];
 	_markers = nil;
 	self.delegate = nil;
+	[matcher release];
+	matcher = nil;
 	[templateContents release];
 	templateContents = nil;
 	[_templateVariables release];
