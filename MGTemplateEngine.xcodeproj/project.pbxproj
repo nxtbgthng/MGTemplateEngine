@@ -425,6 +425,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = MGTemplateEngine;
 				SDKROOT = iphoneos4.1;
