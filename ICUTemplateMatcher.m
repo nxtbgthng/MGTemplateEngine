@@ -91,8 +91,7 @@
 		[markerInfo setObject:matchType forKey:MARKER_TYPE_KEY];
 		
 		// Split marker string into marker-name and arguments.
-		NSRange markerRange = NSMakeRange(0, [matchString length]);
-		markerRange = [matchString rangeOfRegex:regex options:RKLNoOptions inRange:localRange capture:2 + offset error:NULL];
+		NSRange markerRange = [matchString rangeOfRegex:regex options:RKLNoOptions inRange:localRange capture:2 + offset error:NULL];
 		
 		if (markerRange.length > 0) {
 			NSString *markerString = [matchString substringWithRange:markerRange];
