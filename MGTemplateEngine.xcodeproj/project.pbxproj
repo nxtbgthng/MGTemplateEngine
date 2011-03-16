@@ -11,22 +11,22 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		945489331263538000D24C8F /* DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D9142F0DE36747005CC08F /* DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		945489341263538000D24C8F /* ICUTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701D0DE1FD5C00F0B62A /* ICUTemplateMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489331263538000D24C8F /* DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D9142F0DE36747005CC08F /* DeepMutableCopy.h */; settings = {ATTRIBUTES = (); }; };
+		945489341263538000D24C8F /* ICUTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701D0DE1FD5C00F0B62A /* ICUTemplateMatcher.h */; settings = {ATTRIBUTES = (); }; };
 		945489351263538100D24C8F /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8701E0DE1FD5C00F0B62A /* ICUTemplateMatcher.m */; };
-		945489361263538100D24C8F /* MGTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8700F0DE1FD2700F0B62A /* MGTemplateEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489361263538100D24C8F /* MGTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8700F0DE1FD2700F0B62A /* MGTemplateEngine.h */; settings = {ATTRIBUTES = (); }; };
 		945489371263538100D24C8F /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870100DE1FD2700F0B62A /* MGTemplateEngine.m */; };
-		945489381263538100D24C8F /* MGTemplateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870110DE1FD2700F0B62A /* MGTemplateFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		945489391263538100D24C8F /* MGTemplateMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870120DE1FD2700F0B62A /* MGTemplateMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9454893A1263538200D24C8F /* MGTemplateStandardFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870130DE1FD2700F0B62A /* MGTemplateStandardFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489381263538100D24C8F /* MGTemplateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870110DE1FD2700F0B62A /* MGTemplateFilter.h */; settings = {ATTRIBUTES = (); }; };
+		945489391263538100D24C8F /* MGTemplateMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870120DE1FD2700F0B62A /* MGTemplateMarker.h */; settings = {ATTRIBUTES = (); }; };
+		9454893A1263538200D24C8F /* MGTemplateStandardFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870130DE1FD2700F0B62A /* MGTemplateStandardFilters.h */; settings = {ATTRIBUTES = (); }; };
 		9454893B1263538200D24C8F /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870140DE1FD2700F0B62A /* MGTemplateStandardFilters.m */; };
-		9454893C1263538200D24C8F /* MGTemplateStandardMarkers.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870150DE1FD2700F0B62A /* MGTemplateStandardMarkers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454893C1263538200D24C8F /* MGTemplateStandardMarkers.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870150DE1FD2700F0B62A /* MGTemplateStandardMarkers.h */; settings = {ATTRIBUTES = (); }; };
 		9454893E1263538200D24C8F /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8705E0DE2094000F0B62A /* NSArray_DeepMutableCopy.m */; };
-		9454893F1263538300D24C8F /* NSDictionary_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705F0DE2094000F0B62A /* NSDictionary_DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454893F1263538300D24C8F /* NSDictionary_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705F0DE2094000F0B62A /* NSDictionary_DeepMutableCopy.h */; settings = {ATTRIBUTES = (); }; };
 		945489401263538300D24C8F /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870270DE1FF9800F0B62A /* RegexKitLite.h */; settings = {ATTRIBUTES = (); }; };
 		945489441263538400D24C8F /* RegexKitTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701A0DE1FD4000F0B62A /* RegexKitTemplateMatcher.h */; settings = {ATTRIBUTES = (); }; };
 		945489451263538500D24C8F /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870600DE2094000F0B62A /* NSDictionary_DeepMutableCopy.m */; };
-		945489461263538500D24C8F /* NSArray_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705D0DE2094000F0B62A /* NSArray_DeepMutableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945489461263538500D24C8F /* NSArray_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705D0DE2094000F0B62A /* NSArray_DeepMutableCopy.h */; settings = {ATTRIBUTES = (); }; };
 		945489471263538600D24C8F /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870160DE1FD2700F0B62A /* MGTemplateStandardMarkers.m */; };
 		9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */; };
 		945489FD12644C5D00D24C8F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870280DE1FF9800F0B62A /* RegexKitLite.m */; };
@@ -267,7 +267,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */,
 				945489401263538300D24C8F /* RegexKitLite.h in Headers */,
+				945489441263538400D24C8F /* RegexKitTemplateMatcher.h in Headers */,
 				945489331263538000D24C8F /* DeepMutableCopy.h in Headers */,
 				945489341263538000D24C8F /* ICUTemplateMatcher.h in Headers */,
 				945489361263538100D24C8F /* MGTemplateEngine.h in Headers */,
@@ -276,9 +278,7 @@
 				9454893A1263538200D24C8F /* MGTemplateStandardFilters.h in Headers */,
 				9454893C1263538200D24C8F /* MGTemplateStandardMarkers.h in Headers */,
 				9454893F1263538300D24C8F /* NSDictionary_DeepMutableCopy.h in Headers */,
-				945489441263538400D24C8F /* RegexKitTemplateMatcher.h in Headers */,
 				945489461263538500D24C8F /* NSArray_DeepMutableCopy.h in Headers */,
-				9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +425,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
-				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = MGTemplateEngine;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -445,6 +445,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = MGTemplateEngine;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -488,7 +489,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
