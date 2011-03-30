@@ -30,6 +30,26 @@
 		945489471263538600D24C8F /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870160DE1FD2700F0B62A /* MGTemplateStandardMarkers.m */; };
 		9454895B1263545700D24C8F /* libMGTemplateEngine_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */; };
 		945489FD12644C5D00D24C8F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870280DE1FF9800F0B62A /* RegexKitLite.m */; };
+		947BD431134368E500765304 /* MGTemplateEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8700F0DE1FD2700F0B62A /* MGTemplateEngine.h */; };
+		947BD432134368E500765304 /* MGTemplateMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870120DE1FD2700F0B62A /* MGTemplateMarker.h */; };
+		947BD433134368E500765304 /* MGTemplateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870110DE1FD2700F0B62A /* MGTemplateFilter.h */; };
+		947BD434134368E500765304 /* MGTemplateStandardMarkers.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870150DE1FD2700F0B62A /* MGTemplateStandardMarkers.h */; };
+		947BD435134368E500765304 /* MGTemplateStandardFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870130DE1FD2700F0B62A /* MGTemplateStandardFilters.h */; };
+		947BD436134368E500765304 /* ICUTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701D0DE1FD5C00F0B62A /* ICUTemplateMatcher.h */; };
+		947BD437134368E500765304 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D870270DE1FF9800F0B62A /* RegexKitLite.h */; };
+		947BD438134368E500765304 /* RegexKitTemplateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8701A0DE1FD4000F0B62A /* RegexKitTemplateMatcher.h */; };
+		947BD439134368E500765304 /* DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D9142F0DE36747005CC08F /* DeepMutableCopy.h */; };
+		947BD43A134368E500765304 /* NSArray_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705D0DE2094000F0B62A /* NSArray_DeepMutableCopy.h */; };
+		947BD43B134368E500765304 /* NSDictionary_DeepMutableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8705F0DE2094000F0B62A /* NSDictionary_DeepMutableCopy.h */; };
+		947BD43C1343690E00765304 /* libMGTemplateEngine_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */; };
+		947BD43D134369F300765304 /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870100DE1FD2700F0B62A /* MGTemplateEngine.m */; };
+		947BD43E134369F300765304 /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870160DE1FD2700F0B62A /* MGTemplateStandardMarkers.m */; };
+		947BD43F134369F300765304 /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870140DE1FD2700F0B62A /* MGTemplateStandardFilters.m */; };
+		947BD440134369F300765304 /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8701E0DE1FD5C00F0B62A /* ICUTemplateMatcher.m */; };
+		947BD441134369F300765304 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870280DE1FF9800F0B62A /* RegexKitLite.m */; };
+		947BD442134369F300765304 /* RegexKitTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8701B0DE1FD4000F0B62A /* RegexKitTemplateMatcher.m */; };
+		947BD443134369F300765304 /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8705E0DE2094000F0B62A /* NSArray_DeepMutableCopy.m */; };
+		947BD444134369F300765304 /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870600DE2094000F0B62A /* NSDictionary_DeepMutableCopy.m */; };
 		C9ABE0C40DE2EBF8009E7BC8 /* Writing Filters.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.txt */; };
 		C9ABE0C50DE2EBF8009E7BC8 /* Writing Markers.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.txt */; };
 		C9ABE0C60DE2EBF8009E7BC8 /* Writing Matchers.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.txt */; };
@@ -59,6 +79,9 @@
 		8D1107320486CEB800E47090 /* MGTemplateEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTemplateEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945489211263531D00D24C8F /* libMGTemplateEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGTemplateEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9454895A1263545700D24C8F /* libMGTemplateEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libMGTemplateEngine_Prefix.pch; sourceTree = "<group>"; };
+		947BD4201343688100765304 /* MGTemplateEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTemplateEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947BD4211343688100765304 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		947BD4251343688100765304 /* MGTemplateEngine.framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGTemplateEngine.framework-Info.plist"; sourceTree = "<group>"; };
 		C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Filters.txt"; sourceTree = "<group>"; };
 		C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Markers.txt"; sourceTree = "<group>"; };
 		C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Matchers.txt"; sourceTree = "<group>"; };
@@ -106,6 +129,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		947BD41C1343688100765304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -144,6 +174,7 @@
 			children = (
 				8D1107320486CEB800E47090 /* MGTemplateEngine.app */,
 				945489211263531D00D24C8F /* libMGTemplateEngine.a */,
+				947BD4201343688100765304 /* MGTemplateEngine.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +188,7 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				947BD4231343688100765304 /* MGTemplateEngineFramework */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -176,6 +208,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				947BD4251343688100765304 /* MGTemplateEngine.framework-Info.plist */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -187,9 +220,25 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				947BD4211343688100765304 /* Cocoa.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947BD4231343688100765304 /* MGTemplateEngineFramework */ = {
+			isa = PBXGroup;
+			children = (
+				947BD4241343688100765304 /* Supporting Files */,
+			);
+			path = MGTemplateEngineFramework;
+			sourceTree = "<group>";
+		};
+		947BD4241343688100765304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C9ABE0BF0DE2EBE3009E7BC8 /* Extensibility Docs */ = {
@@ -282,6 +331,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		947BD41D1343688100765304 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947BD43C1343690E00765304 /* libMGTemplateEngine_Prefix.pch in Headers */,
+				947BD431134368E500765304 /* MGTemplateEngine.h in Headers */,
+				947BD432134368E500765304 /* MGTemplateMarker.h in Headers */,
+				947BD433134368E500765304 /* MGTemplateFilter.h in Headers */,
+				947BD434134368E500765304 /* MGTemplateStandardMarkers.h in Headers */,
+				947BD435134368E500765304 /* MGTemplateStandardFilters.h in Headers */,
+				947BD436134368E500765304 /* ICUTemplateMatcher.h in Headers */,
+				947BD437134368E500765304 /* RegexKitLite.h in Headers */,
+				947BD438134368E500765304 /* RegexKitTemplateMatcher.h in Headers */,
+				947BD439134368E500765304 /* DeepMutableCopy.h in Headers */,
+				947BD43A134368E500765304 /* NSArray_DeepMutableCopy.h in Headers */,
+				947BD43B134368E500765304 /* NSDictionary_DeepMutableCopy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -320,6 +388,24 @@
 			productReference = 945489211263531D00D24C8F /* libMGTemplateEngine.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		947BD41F1343688100765304 /* MGTemplateEngine.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947BD42C1343688100765304 /* Build configuration list for PBXNativeTarget "MGTemplateEngine.framework" */;
+			buildPhases = (
+				947BD41B1343688100765304 /* Sources */,
+				947BD41C1343688100765304 /* Frameworks */,
+				947BD41D1343688100765304 /* Headers */,
+				947BD41E1343688100765304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGTemplateEngine.framework;
+			productName = MGTemplateEngineFramework;
+			productReference = 947BD4201343688100765304 /* MGTemplateEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,6 +420,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MGTemplateEngine */;
 			projectDirPath = "";
@@ -341,6 +428,7 @@
 			targets = (
 				8D1107260486CEB800E47090 /* MGTemplateEngine */,
 				945489201263531D00D24C8F /* libMGTemplateEngine */,
+				947BD41F1343688100765304 /* MGTemplateEngine.framework */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +445,13 @@
 				C9ABE0C40DE2EBF8009E7BC8 /* Writing Filters.txt in Resources */,
 				C9ABE0C50DE2EBF8009E7BC8 /* Writing Markers.txt in Resources */,
 				C9ABE0C60DE2EBF8009E7BC8 /* Writing Matchers.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947BD41E1343688100765304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +485,21 @@
 				945489451263538500D24C8F /* NSDictionary_DeepMutableCopy.m in Sources */,
 				945489471263538600D24C8F /* MGTemplateStandardMarkers.m in Sources */,
 				945489FD12644C5D00D24C8F /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947BD41B1343688100765304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947BD43D134369F300765304 /* MGTemplateEngine.m in Sources */,
+				947BD43E134369F300765304 /* MGTemplateStandardMarkers.m in Sources */,
+				947BD43F134369F300765304 /* MGTemplateStandardFilters.m in Sources */,
+				947BD440134369F300765304 /* ICUTemplateMatcher.m in Sources */,
+				947BD441134369F300765304 /* RegexKitLite.m in Sources */,
+				947BD442134369F300765304 /* RegexKitTemplateMatcher.m in Sources */,
+				947BD443134369F300765304 /* NSArray_DeepMutableCopy.m in Sources */,
+				947BD444134369F300765304 /* NSDictionary_DeepMutableCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +557,57 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		947BD42A1343688100765304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MGTemplateEngine.framework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MGTemplateEngine;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		947BD42B1343688100765304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MGTemplateEngine.framework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = MGTemplateEngine;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -517,6 +678,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		947BD42C1343688100765304 /* Build configuration list for PBXNativeTarget "MGTemplateEngine.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947BD42A1343688100765304 /* Debug */,
+				947BD42B1343688100765304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MGTemplateEngine" */ = {
 			isa = XCConfigurationList;
