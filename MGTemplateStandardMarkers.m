@@ -582,7 +582,14 @@
 		if (val) {
 			if ([val isKindOfClass:[NSNumber class]]) {
 				argTrue = [(NSNumber *)val boolValue];
-			} else {
+			}
+			else if ([val isKindOfClass:[NSString class]]) {
+				argTrue = ([(NSString *)val length] > 0);
+			}
+			else if ([val isKindOfClass:[NSNull class]]) {
+				argTrue = NO;
+			}
+			else {
 				argTrue = YES;
 			}
 		}
