@@ -342,7 +342,7 @@
 		*blockEnded = YES;
 		
 	} else if ([marker isEqualToString:IF_START]) {
-		if (args && ([args count] == 1 || [args count] == 3)) {
+		if (args && ([args count] >= 1 && [args count] <= 3)) {
 			*blockStarted = YES;
 			
 			// Determine appropriate values for outputEnabled and for our if-stack frame.
@@ -582,7 +582,14 @@
 		if (val) {
 			if ([val isKindOfClass:[NSNumber class]]) {
 				argTrue = [(NSNumber *)val boolValue];
-			} else {
+			}
+			else if ([val isKindOfClass:[NSString class]]) {
+				argTrue = ([(NSString *)val length] > 0);
+			}
+			else if ([val isKindOfClass:[NSNull class]]) {
+				argTrue = NO;
+			}
+			else {
 				argTrue = YES;
 			}
 		}
