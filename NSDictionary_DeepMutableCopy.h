@@ -7,6 +7,6 @@
 
 @interface NSDictionary (DeepMutableCopy)
 
-- (NSMutableDictionary *)deepMutableCopy;
+- (NSMutableDictionary *)deepMutableCopy NS_RETURNS_RETAINED;
 
 @end
