@@ -550,6 +550,7 @@
 				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MGTemplateEngine;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -571,6 +572,7 @@
 				GCC_PREFIX_HEADER = libMGTemplateEngine_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MGTemplateEngine;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
